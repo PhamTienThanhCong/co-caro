@@ -35,6 +35,8 @@ namespace Caro
         Button[,] Button;
         int Cols = 10;
         int Rows = 10;
+        string player1 = "Công";
+        string player2 = "thức";
         //private object uiCanVas;
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -48,7 +50,7 @@ namespace Caro
             a = new int[Cols, Rows];
             Button = new Button[Cols,Rows];
 
-            //đặt các btn vào canvas
+            // tạo bàn cờ và lắng nghe sư kiện
             for(int i=0;i<Rows;i++)
             {
                 for(int j=0;j<Cols;j++)
@@ -58,11 +60,11 @@ namespace Caro
                     Button[i, j].Width = btnWidth;
                     Button[i, j].Background = Brushes.White;
                     Button[i, j].FontSize = 20;
-                    
-                    Button[i, j].Tag= new Tuple<int,int>(i, j);
+
+                    Button[i, j].Tag = new Tuple<int, int>(i, j);
                     Button[i, j].Click += BtnClick;
                     
-                    //đưa buttton lên giao diện
+                    // thêm các ô nút lên giao diện
                     Canvas.Children.Add(Button[i, j]);
                     Canvas.SetLeft(Button[i,j],80+ j * btnWidth);
                     Canvas.SetTop(Button[i, j],80+ i * btnHeigh);
@@ -74,6 +76,7 @@ namespace Caro
         
         bool Xturn = true;
 
+        /*click vào các ô giao diện*/
         private void BtnClick(object sender, RoutedEventArgs e)
         {
             var btn = sender as Button;
@@ -105,21 +108,18 @@ namespace Caro
 
                 if (kt == 1)
                 {
-                    MessageBox.Show("X Won!");
-                    dt.Stop();
+                    MessageBox.Show(player1 + " Won!");
                     Reset();
                 }
                 if (kt == 2)
                 {
-                    MessageBox.Show("O Won!");
-                    dt.Stop();
+                    MessageBox.Show(player2 + " Won!");
                     Reset();
                 }
 
                 if(SumCount==Cols*Rows)
                 {
-                    MessageBox.Show("Hòa nhau!");
-                    dt.Stop();
+                    MessageBox.Show(player1 + " Và " + player2 + " Hòa nhau!");
                     Reset();
                 }
 
@@ -144,44 +144,37 @@ namespace Caro
             }
         }
 
-        /// <summary>
-        /// Hàm kiểm tra Win
-        /// </summary>
-        /// <param name="a">mảng lưu bên dưới</param>
-        /// <param name="i">vị trí dòng hiện tại</param>
-        /// <param name="j">vị trí cột hiện tại</param>
-        /// <returns></returns>
         private int CheckWin(int[,] a, int i, int j)
         {
             const int conditionWin = 5;
             int count;
             int di, dj;
-            //---------------loang theo chiều ngan----------------
+            //---------------load theo chiều ngang----------------
             count = 1;
-            //loang bên trái
+            //load bên trái
             di = 0;
             dj = -1;
-            count += Loang(di, dj, i, j);
-            //loang bên phải
+            count += Load(di, dj, i, j);
+            //Load bên phải
             di = 0;
             dj = 1;
-            count += Loang(di, dj, i, j);
+            count += Load(di, dj, i, j);
             
             if(count>=conditionWin)
             {
                 return a[i, j];
             }
 
-            //---------------loang theo chiều dọc----------------
+            //---------------Load theo chiều dọc----------------
             count = 1;
-            //loang bên trên
+            //Load bên trên
             di = -1;
             dj = 0;
-            count += Loang(di, dj, i, j);
-            //loang bên dưới
+            count += Load(di, dj, i, j);
+            //Load bên dưới
             di = 1;
             dj = 0;
-            count += Loang(di, dj, i, j);
+            count += Load(di, dj, i, j);
 
             if (count >= conditionWin)
             {
@@ -189,32 +182,32 @@ namespace Caro
             }
 
 
-            //---------------loang theo đường chéo chính----------------
+            //---------------Load theo đường chéo chính----------------
             count = 1;
-            //loang bên trên
+            //Load bên trên
             di = -1;
             dj = -1;
-            count += Loang(di, dj, i, j);
-            //loang bên dưới
+            count += Load(di, dj, i, j);
+            //Load bên dưới
             di = 1;
             dj = 1;
-            count += Loang(di, dj, i, j);
+            count += Load(di, dj, i, j);
 
             if (count >= conditionWin)
             {
                 return a[i, j];
             }
 
-            //---------------loang theo đường chéo phụ----------------
+            //---------------Load theo đường chéo phụ----------------
             count = 1;
-            //loang bên trên
+            //Load bên trên
             di = -1;
             dj = 1;
-            count += Loang(di, dj, i, j);
-            //loang bên dưới
+            count += Load(di, dj, i, j);
+            //Load bên dưới
             di = 1;
             dj = -1;
-            count += Loang(di, dj, i, j);
+            count += Load(di, dj, i, j);
 
             if (count >= conditionWin)
             {
@@ -225,16 +218,8 @@ namespace Caro
             return 0;
         }
 
-
-        /// <summary>
-        /// Hàm loang
-        /// </summary>
-        /// <param name="di"></param>
-        /// <param name="dj"></param>
-        /// <param name="i">vị trí i bắt đầu</param>
-        /// <param name="j">vị trí j bắt đầu</param>
-        /// <returns></returns>
-        int Loang(int di, int dj, int i, int j)
+        /* Hàm load các đường từ vị trí */
+        int Load(int di, int dj, int i, int j)
         {
             int count = 0;
             int StartI = i;
@@ -278,65 +263,6 @@ namespace Caro
             dt.Stop();
         }
 
-        private void Reset_Click(object sender, RoutedEventArgs e)
-        {
-            Reset();
-        }
-
-       
-
-            
-        
-
-        private void Load_Click(object sender, RoutedEventArgs e)
-        {
-            var srceen = new OpenFileDialog();
-
-            if(srceen.ShowDialog()==true)
-            {
-                var FileName = srceen.FileName;
-
-                var Reader = new StreamReader(FileName);
-
-                //đọc dòng đầu (lượt đi hiện tại)
-                var firstline = Reader.ReadLine();
-                Xturn = firstline == "X";
-                SetTurn();
-
-                //đọc dòng kế tiếp SumCount biến kiểm tra hòa
-                SumCount = int.Parse(Reader.ReadLine());
-
-                //đọc lên thời gian
-                countTime = int.Parse(Reader.ReadLine());
-                time.Text = countTime.ToString();
-                btn_starttimeOut.Content = "Continute";
-
-                for(int i=0;i<Rows;i++)
-                {
-                    var token = Reader.ReadLine().Split(new string[] {" "}, StringSplitOptions.None);
-                   for(int j=0;j<Cols;j++)
-                    {
-                        a[i, j] = int.Parse(token[j]);
-
-                        if (a[i, j] == 1)
-                        {
-                            Button[i, j].Content = "X";
-                            Button[i, j].Foreground = Brushes.Red;
-                        }
-                        if (a[i, j] == 2)
-                        {
-                            Button[i, j].Content = "O";
-                            Button[i, j].Foreground = Brushes.Green;
-                        }
-                        if (a[i, j] == 0)
-                        {
-                            Button[i, j].Content = ""; 
-                        }
-                    }                    
-                }
-            }
-        }
-
         DispatcherTimer dt = new DispatcherTimer();
         int countTime = 10;
         private void dtTicker(object sender, EventArgs e)
@@ -364,8 +290,11 @@ namespace Caro
                     MessageBox.Show("X Won!");
                     Reset();
                 }
-                dt.Stop();
             }
+        }
+        private void Reset_Click(object sender, RoutedEventArgs e)
+        {
+            Reset();
         }
 
         private void TimeOut_Click(object sender, RoutedEventArgs e)

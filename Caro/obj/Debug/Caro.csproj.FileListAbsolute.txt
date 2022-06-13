@@ -32,3 +32,19 @@ C:\Users\Admin\Dropbox\PC\Desktop\Game-Caro-master\Game-Caro-master\Caro\obj\Deb
 C:\Users\Admin\Dropbox\PC\Desktop\Game-Caro-master\Game-Caro-master\Caro\obj\Debug\Caro.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Dropbox\PC\Desktop\Game-Caro-master\Game-Caro-master\Caro\obj\Debug\Caro.exe
 C:\Users\Admin\Dropbox\PC\Desktop\Game-Caro-master\Game-Caro-master\Caro\obj\Debug\Caro.pdb
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro.csproj.AssemblyReference.cache
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro.csproj.SuggestedBindingRedirects.cache
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\MainWindow.g.cs
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\App.g.cs
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro_MarkupCompile.cache
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro_MarkupCompile.lref
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro.exe
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro.pdb
+H:\PET Project\BTL Cong Nghe Net\Caro\bin\Debug\Caro.exe.config
+H:\PET Project\BTL Cong Nghe Net\Caro\bin\Debug\Caro.exe
+H:\PET Project\BTL Cong Nghe Net\Caro\bin\Debug\Caro.pdb
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\MainWindow.baml
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro.g.resources
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro.Properties.Resources.resources
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro.csproj.GenerateResource.cache
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro.csproj.CoreCompileInputs.cache
