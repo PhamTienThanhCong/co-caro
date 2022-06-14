@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Release\
 Caro
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\App.xaml
 2-836787701
 
@@ -16,5 +16,5 @@ C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\App.xaml
 13-1310406943
 MainWindow.xaml;Dientennguoichoi.xaml;
 
-False
+True
 

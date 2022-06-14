@@ -5,14 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Caro"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="Game caro 2 người chơi" Height="527" Width="800" Loaded="Window_Loaded">
     <Canvas x:Name="Canvas">
+
         <Label Content="Game Caro" Foreground="Orange"  FontSize="50" Width="585" HorizontalContentAlignment="Center"></Label>
         <TextBlock x:Name="time" Height="83" Width="80" Canvas.Left="551" Canvas.Top="147" FontSize="60" Foreground="Blue" Text="10" TextAlignment="Center"></TextBlock>
         <Label Content="Time out" FontSize="30" Canvas.Left="528" Canvas.Top="97"></Label>
         <Label Content="Turn: " FontSize="30" Canvas.Left="528" Canvas.Top="264" Width="76"></Label>
         <Label Name="turn" Content="X" Foreground="Red" FontSize="30" Canvas.Left="625" Canvas.Top="264" Width="34"></Label>
-        <Button Content="Reset" Click="Reset_Click" Height="26" Width="80" Canvas.Left="552" Canvas.Top="381"></Button>
+        <Button Content="Reset" Click="Reset_Click" Height="26" Width="80" Canvas.Left="552" Canvas.Top="372" HorizontalAlignment="Center" VerticalAlignment="Top"></Button>
         <Button Name="btn_starttimeOut" Content="Start With Time Out" Click="TimeOut_Click" Height="26" Width="130" Canvas.Left="529" Canvas.Top="233"></Button>
+        <Label x:Name="turnPlayer" Content="Player" Canvas.Left="616" Canvas.Top="305" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" FontWeight="Normal" Foreground="#FF0700F5" OpacityMask="#FF9C5757"/>
+        <TextBlock Canvas.Left="535" TextWrapping="Wrap" Text="Player:" Canvas.Top="307" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Normal" OpacityMask="Black"/>
     </Canvas>
 </Window>

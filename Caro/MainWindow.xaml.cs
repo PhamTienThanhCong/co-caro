@@ -23,22 +23,25 @@ namespace Caro
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
-
         //Biến kiểm tra xem đi hết bàn cờ chưa
-        int SumCount=0;
+        int SumCount = 0;
 
         int[,] a;
         Button[,] Button;
         int Cols = 10;
         int Rows = 10;
-        string player1 = "Công";
-        string player2 = "thức";
-        //private object uiCanVas;
+        string player1 = "";
+        string player2 = "";
 
+        public MainWindow(string play1, string play2)
+        {
+            InitializeComponent();
+            player1 = play1;
+            player2 = play2;
+        }
+        
+        //private object uiCanVas;
+        
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             dt.Interval = TimeSpan.FromSeconds(1);
@@ -70,7 +73,6 @@ namespace Caro
                     Canvas.SetTop(Button[i, j],80+ i * btnHeigh);
                 }
             }
-            
         }
 
         
@@ -136,11 +138,13 @@ namespace Caro
             {
                 turn.Content = "X";
                 turn.Foreground = Brushes.Red;
+                turnPlayer.Content = player1;
             }
             else
             {
                 turn.Content = "O";
                 turn.Foreground = Brushes.Green;
+                turnPlayer.Content = player2;
             }
         }
 

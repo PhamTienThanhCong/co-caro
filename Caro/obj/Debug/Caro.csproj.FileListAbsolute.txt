@@ -48,3 +48,40 @@ H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro.g.resources
 H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro.Properties.Resources.resources
 H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro.csproj.GenerateResource.cache
 H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Caro.csproj.CoreCompileInputs.cache
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\bin\Debug\Caro.exe.config
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\bin\Debug\Caro.exe
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\bin\Debug\Caro.pdb
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\Caro.csproj.AssemblyReference.cache
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\Caro.csproj.SuggestedBindingRedirects.cache
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\MainWindow.g.cs
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\App.g.cs
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\Caro_MarkupCompile.cache
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\Caro_MarkupCompile.lref
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\MainWindow.baml
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\Caro.g.resources
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\Caro.Properties.Resources.resources
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\Caro.csproj.GenerateResource.cache
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\Caro.csproj.CoreCompileInputs.cache
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\Caro.exe
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\Caro.pdb
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\MainWindow1.g.cs
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\MainWindow1.baml
+E:\Phenikaa Student\Công nghệ net kỳ 2 năm 2\co-caro-master\Caro\obj\Debug\Dientennguoichoi.g.cs
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\bin\Debug\Caro.exe.config
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\bin\Debug\Caro.exe
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\bin\Debug\Caro.pdb
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro.csproj.AssemblyReference.cache
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro.csproj.SuggestedBindingRedirects.cache
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\MainWindow.g.cs
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Dientennguoichoi.g.cs
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\App.g.cs
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro_MarkupCompile.cache
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro_MarkupCompile.lref
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\MainWindow.baml
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Dientennguoichoi.baml
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro.g.resources
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro.Properties.Resources.resources
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro.csproj.GenerateResource.cache
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro.csproj.CoreCompileInputs.cache
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro.exe
+C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro.pdb
