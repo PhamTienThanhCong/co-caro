@@ -8,11 +8,11 @@
         WindowStartupLocation="CenterScreen"
         Title="Form điền tên người chơi" Height="230" Width="400">
     <Grid Margin="0,-24,0,0">
-        <TextBox x:Name="player1" HorizontalAlignment="Left" Height="29" Margin="50,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121"/>
-        <TextBox x:Name="player2" HorizontalAlignment="Right" Height="29" Margin="0,116,50,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121"/>
-        <TextBlock HorizontalAlignment="Left" Margin="85,90,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" RenderTransformOrigin="0.858,0.445" FontSize="14"/>
-        <TextBlock HorizontalAlignment="Right" Margin="0,90,85,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" RenderTransformOrigin="0.858,0.445" FontSize="14"/>
+        <TextBox x:Name="player1" HorizontalAlignment="Left" Height="29" Margin="50,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontSize="18"/>
+        <TextBox x:Name="player2" HorizontalAlignment="Right" Height="29" Margin="0,116,50,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="85,90,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" RenderTransformOrigin="0.858,0.445" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,90,85,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" RenderTransformOrigin="0.858,0.445" FontSize="16"/>
         <Button x:Name="Btn_start" Content="Start" HorizontalAlignment="Left" Margin="50,162,0,0" VerticalAlignment="Top" Width="312" Click="Button_Click" RenderTransformOrigin="-1.75,0.102" Height="28" Background="#FF0B31CC" BorderBrush="#FF0010FF" Foreground="White" FontSize="14"/>
-        <Label Content="Nhập tên người chơi" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Nhập tên người chơi" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontSize="18"/>
     </Grid>
 </Window>

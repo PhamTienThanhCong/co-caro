@@ -85,3 +85,5 @@ C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro.csproj.Genera
 C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro.csproj.CoreCompileInputs.cache
 C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro.exe
 C:\Users\congp\OneDrive\Desktop\co-caro-master\Caro\obj\Debug\Caro.pdb
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Dientennguoichoi.g.cs
+H:\PET Project\BTL Cong Nghe Net\Caro\obj\Debug\Dientennguoichoi.baml
